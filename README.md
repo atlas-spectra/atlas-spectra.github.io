@@ -1,9 +1,9 @@
-# Atlas Spectra Pages shell
+# Atlas Spectra root redirect
 
-This repository exists only to publish the Atlas Spectra organization site at <https://atlas-spectra.github.io/>.
+This repository exists only to redirect <https://atlas-spectra.github.io/> to the Atlas Spectra project Pages site at <https://atlas-spectra.github.io/atlas-spectra/>.
 
-The canonical source, scientific corpus, issues, and development history live in [`atlas-spectra/atlas-spectra`](https://github.com/atlas-spectra/atlas-spectra).
+The canonical source, scientific corpus, web application, issues, and development history live in [`atlas-spectra/atlas-spectra`](https://github.com/atlas-spectra/atlas-spectra).
 
-The deployment workflow checks out an explicit source ref from the canonical repository, re-runs the scientific validation suite and Astro build, and deploys the resulting `dist/` artifact to GitHub Pages.
+The root repository deploys only the static files in `public/` with its own repository-scoped `GITHUB_TOKEN`.
 
 Do not add product source or scientific data here.
